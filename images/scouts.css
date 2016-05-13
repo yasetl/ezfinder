@@ -1,0 +1,216 @@
+/*Screen background */
+body {
+	font:100% Arial, Helvetica, sans-serif;
+	margin:0px; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding:0px;
+	text-align:center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #page-wrap selector */
+	color:#000000;
+	background-image:url('../images/bg.gif');
+	}
+/* defines the width of the website and its position on the screen */
+#page-wrap {
+	position:relative; 
+	top:0px;
+     width:1000px;
+     margin:0px auto;/* the auto margins (in conjunction with a width) centers the page */
+	 background:white; 
+	text-align:left; /* this overrides the text-align: center on the body element. */
+	margin-top:0px;
+	margin-right:auto;
+	margin-bottom:0px;
+	margin-left:auto;
+	padding-left:0px;
+	padding-top:0px;
+			}
+#container
+{
+width: 1000px;
+height: 100%;
+margin: 0 auto;
+overflow: hidden;
+}
+	
+/* how the header is created */
+header {
+	width:998px;
+	background-image:url('../images/rope.gif');
+	background-repeat:no-repeat;
+	border: 1px solid white;
+}
+/* how the navigation bar is created */
+nav {
+	height:35px;
+		color:white;
+text-align:right;
+font-size:1.2em;
+font-family:Arial, Helvetica, sans-serif;
+}
+/* how the navigation bar list is set out*/
+li {
+display:inline;
+padding-right:30px;
+}
+/* how links are displayed within lists*/
+
+li a {text-decoration:none;color:white;}
+li a:link {text-decoration:none;color:white;}
+li a:visited {text-decoration:none;color:white;}
+li a:hover {text-decoration:none;color:yellow;}
+li a:active {text-decoration:none;color:pink;}
+
+/* how links are displayed on the site except where overwriden by other elements*/
+a {text-decoration:none;color:#773dbe;}
+a:link {text-decoration:none;color:#773dbe;}
+a:visited {text-decoration:none;color:#e1261c;}
+a:hover {text-decoration:none;color:#00af43;}
+a:active {text-decoration:none;color:#ffc72a;}
+
+
+/* how the side bar is created */
+.sidebar {
+float: left;
+width:200px;
+height:100%;
+display: table-cell;
+background-color:#cecbe6;
+color:black;
+text-align:center;
+font-size:1.2em;
+font-family:Georgia, Times, serif;
+}
+/* how the Main heading is created */
+.topper {
+float: right;
+width:750px;
+height:115px;
+background-color:#006648;
+color:#ffc72c;
+text-align:left;
+font-size:5.5em;
+padding-left:50px;
+font-family:Georgia, Times, serif;
+text-transform: uppercase;
+}
+/* how the joeys heading is created - only used in joeys.html*/
+.topperJ {
+float: right;
+width:750px;
+height:115px;
+background-color:#bc6225;
+color:#ffc72c;
+text-align:left;
+font-size:5.5em;
+padding-left:50px;
+font-family:Georgia, Times, serif;
+text-transform: uppercase;
+}
+/* how the cubs heading is created - only used in cubs.html*/
+.topperC {
+float: right;
+width:750px;
+height:115px;
+background-color:#ffc72a;
+color:#006648;
+text-align:left;
+font-size:5.5em;
+padding-left:50px;
+font-family:Georgia, Times, serif;
+text-transform: uppercase;
+}
+/* how the venturers heading is created - only used in vents.html*/
+.topperV {
+float: right;
+width:750px;
+height:115px;
+background-color:#a32136;
+color:#ffc72a;
+text-align:left;
+font-size:5.5em;
+padding-left:50px;
+font-family:Georgia, Times, serif;
+text-transform: uppercase;
+}
+/* how the rovers heading is created - only used in rovers.html*/
+.topperR {
+float: right;
+width:750px;
+height:115px;
+background-color:#a1261c;
+color:#ffc72a;
+text-align:left;
+font-size:5.5em;
+padding-left:50px;
+font-family:Georgia, Times, serif;
+text-transform: uppercase;
+}
+/*the font, size, position and colour of the main text area*/
+.article {
+display: table-cell;
+float: left;
+color:purple;
+text-align:left;
+font-size:1.2em;
+font-family:Georgia, Times, serif;
+width:505px;
+padding-left:25px;
+}
+
+.article h1 {
+font-family:Arial, Helvetica, sans-serif;
+text-align:center;
+
+}
+
+.articleB {
+display: table-cell;
+float: left;
+color:purple;
+text-align:left;
+font-size:0.9em;
+font-family:Georgia, Times, serif;
+width:750px;
+padding-left:25px;
+}
+
+.articleB h1 {
+font-family:Arial, Helvetica, sans-serif;
+text-align:center;
+
+}
+
+.bquote {
+color:blue;
+text-align:left;
+font-size:1em;
+font-family:Arial, Helvetica, sans-serif;
+padding-left:10px;
+}
+
+
+/*position of the main image - the Life is an adventure pic*/
+.imageplace {
+display: table-cell;
+float: right;
+width:250px;
+}
+
+.BP {
+display: table-cell;
+position:absolute;
+left:800px;
+
+}
+
+/*the font, size, position and colour of the footer area*/
+footer {
+width:1000px;
+height:120px;
+background-color:black;
+background-image:url('../images/banner2.jpg');
+background-repeat:no-repeat;
+border: 1px solid white;
+color:white;
+text-align:center;
+font-size:0.75em;
+font-family:Arial, Helvetica, sans-serif;
+}
