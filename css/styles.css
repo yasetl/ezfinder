@@ -1,0 +1,472 @@
+p {
+    font-family: 'Work Sans', sans-serif;
+}
+
+html, body {
+  width:  1300px;
+  height: auto
+      ;
+  margin: auto;
+}
+
+body {
+	margin: 0 0 125px;
+	padding: 25px;
+}
+
+h2 { 
+   position: relative; 
+   top: 0px; 
+   left: auto; 
+   width: 1200px; 
+       font: bold 16px Helvetica, Sans-Serif; 
+}
+
+h6 { 
+   position: relative; 
+   top: 0px; 
+   left: auto; 
+   width: 1200px; 
+       font: italic 14px/14px Helvetica, Sans-Serif; 
+}
+
+h1 { 
+   position: relative; 
+   top: auto; 
+   left: 20px; 
+   width: 1200px; 
+       font: bold 66px Helvetica, Sans-Serif; 
+}  
+
+h3 { 
+   position: relative; 
+   top: 40px; 
+   left: 40px; 
+   width: 1200px; 
+       font: bold 66px Helvetica, Sans-Serif; 
+}
+
+h4 { 
+   position: relative; 
+   top: auto; 
+   left: 20px; 
+   width: 1200px; 
+       font: bold 66px Helvetica, Sans-Serif; 
+}  
+
+h5 { 
+   position: relative; 
+   top: auto; 
+   left: 0px; 
+   width: 1200px; 
+       font: bold 66px Helvetica, Sans-Serif; 
+}  
+
+
+strong { 
+   position: relative; 
+   top: auto; 
+   left: 40px; 
+   width: 400px; 
+       font:  28px Helvetica, Sans-Serif; 
+}  
+
+
+.footer-basic-centered{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: normal 18px sans-serif;
+
+	padding: 45px;
+	margin-top: 80px;
+}
+
+.footer-basic-centered .footer-company-motto{
+	color:  #8d9093;
+	font-size: 24px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links{
+	list-style: none;
+	font-weight: bold;
+	color:  #ffffff;
+	padding: 35px 0 23px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links a{
+	display:inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+
+@media (max-width: 600px) {
+
+
+	.footer-basic-centered{
+		padding: 35px;
+	}
+
+	.footer-basic-centered .footer-company-motto{
+		font-size: 18px;
+	}
+
+	.footer-basic-centered .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-basic-centered .footer-links{
+		font-size: 14px;
+		padding: 25px 0 20px;
+	}
+
+	.footer-basic-centered .footer-links a{
+		line-height: 1.8;
+	}
+}
+
+
+#background {
+  left: auto;
+  top: auto;
+  position: relative;
+  margin-left: 22px;
+  margin-right: auto;
+  width: auto;
+  height: 1444px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+#cssmenu {
+  padding: 12px;
+  margin: auto;
+  border: 0;
+}
+
+#cssmenu ul,#cssmenu li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#cssmenu ul {
+  position: relative;
+  z-index: 597;
+}
+
+#cssmenu ul li {
+  float: left;
+  min-height: 1px;
+  vertical-align: middle;
+}
+
+#cssmenu ul li.hover,#cssmenu ul li:hover {
+  position: relative;
+  z-index: 599;
+  cursor: default;
+}
+
+#cssmenu ul ul {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 598;
+  width: 100%;
+}
+
+#cssmenu ul ul li {
+  float: none;
+}
+
+#cssmenu ul ul ul {
+  top: 0;
+  left: auto;
+  right: -99.5%;
+}
+
+#cssmenu ul li:hover > ul {
+  visibility: visible;
+}
+
+#cssmenu ul ul {
+  bottom: 0;
+  left: 0;
+}
+
+#cssmenu ul ul {
+  margin-top: 0;
+}
+
+#cssmenu ul ul li {
+  font-weight: 400;
+}
+
+#cssmenu a {
+  display: block;
+  line-height: 1em;
+  text-decoration: none;
+}
+
+#cssmenu {
+  background: #333;
+  border-bottom: 4px solid #1b9bff;
+  font-family: 'Oxygen Mono',Tahoma,Arial,sans-serif;
+  font-size: 14px;
+}
+
+#cssmenu > ul {
+  *display: inline-block;
+}
+
+#cssmenu:after,#cssmenu ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#cssmenu a {
+  background: #333;
+  color: #CBCBCB;
+  padding: 0 77px;
+}
+
+#cssmenu ul {
+  text-transform: uppercase;
+}
+
+#cssmenu ul ul {
+  border-top: 4px solid #1b9bff;
+  text-transform: none;
+  min-width: 190px;
+}
+
+#cssmenu ul ul a {
+  background: #1b9bff;
+  color: #FFF;
+  border: 1px solid #0082e7;
+  border-top: 0 none;
+  line-height: 150%;
+  padding:16px 20px;
+}
+
+#cssmenu ul ul ul {
+  border-top: 0 none;
+}
+
+#cssmenu ul ul li {
+  position: relative;
+}
+
+#cssmenu > ul > li > a {
+  line-height: 33px;
+}
+
+#cssmenu ul ul li:first-child > a {
+  border-top: 1px solid #0082e7;
+}
+
+#cssmenu ul ul li:hover > a {
+  background: #35a6ff;
+}
+
+#cssmenu ul ul li:last-child > a {
+  border-radius: 0 0 3px 3px;
+  box-shadow: 0 1px 0 #1b9bff;
+}
+
+#cssmenu ul ul li:last-child:hover > a {
+  border-radius: 0 0 0 3px;
+}
+
+#cssmenu ul ul li.has-sub > a:after {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  margin-top: -8px;
+}
+
+#cssmenu ul li:hover > a,#cssmenu ul li.active > a {
+  background: #1b9bff;
+  color: #FFF;
+}
+
+#cssmenu ul li.has-sub > a:after {
+  content: '+';
+  margin-left: 5px;
+}
+
+#cssmenu ul li.last ul {
+  left: auto;
+  right: 0;
+}
+
+#cssmenu ul li.last ul ul {
+  left: auto;
+  right: 99.5%;
+}
+
+#img6 {
+  left: 120px;
+  top: auto;
+  position: absolute;
+  width: auto;
+  height: auto;
+  z-index: 10;
+}
+
+#img4 {
+  left: 120px;
+  top: auto;
+  position: absolute;
+  width: auto;
+  height: auto;
+  z-index: 10;
+}
+
+#container_1 {
+  left: 5px;
+  top: 905px;
+  position: absolute;
+  width: auto;
+  height: auto;
+  z-index: 11;
+}
+
+#containersunburst {
+  left: px;
+  top: 133px;
+  position: absolute;
+  width: 1200px;
+  height: auto;
+  z-index: 12;
+}
+
+#img7 {
+	left: 120px;
+	top: 140px;
+	position: absolute;
+	width: auto;
+	height: auto;
+	z-index: 20;
+}
+
+#dribbble {
+  left: 1236px;
+  top: 22px;
+  position: absolute;
+  width: 39px;
+  height: 40px;
+  z-index: 26;
+}
+
+#google {
+  left: auto;
+  top: 44px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  z-index: 29;
+}
+
+#pinterest {
+  left: auto;
+  top: auto;
+  position: absolute;
+  width: 39px;
+  height: 40px;
+  z-index: 0;
+}
+
+#rss {
+  left: auto;
+  top: 22px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  z-index: 0;
+}
+
+#facebook {
+  left: auto;
+  top: 22px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  z-index: 0;
+}
+
+#twitter {
+  left: auto;
+  top: 22px;
+  position: absolute;
+  width: 39px;
+  height: 40px;
+  z-index: 0;
+}
+
+#cursorImageImage {
+  left: auto;
+  top: 23px;
+  position: absolute;
+  width: 17px;
+  height: 20px;
+  z-index: 0;
+}
+
+#logo {
+  left: 488px;
+  top: 13px;
+  position: absolute;
+  width: 280px;
+  height: 112px;
+  z-index: 34;
+}
+
+/* =Hoverbox Code New Release page
+----------------------------------------------------------------------*/
+
+.hoverbox
+{
+	cursor: default;
+	list-style: none;
+}
+
+.hoverbox img
+{
+	background: #fff;
+	border-color: #aaa #ccc #ddd #bbb;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	padding: 2px;
+	vertical-align: top;
+	width: 300px;
+	height: 455px;
+}
+
+.hoverbox li
+{
+	background: #eee;
+	border-color: #ddd #bbb #aaa #ccc;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	display: inline;
+	float: left;
+	margin: 3px;
+	padding: 20px;
+	position: relative;
+} 
